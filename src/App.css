@@ -1,0 +1,33 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: white;
+}
+
+.error-form {
+  padding: 20px 30px;
+  background: red;
+  border: 1px solid;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.sign-form{
+  padding: 100px;
+  display : flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center
+}
+
+.sign-form form{
+  width: 30%
+}
+
+.add-company{
+  width: 100%
+}
